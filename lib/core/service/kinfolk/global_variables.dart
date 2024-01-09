@@ -1,0 +1,44 @@
+import 'dart:developer';
+
+import 'package:kzm/core/service/kinfolk/service/exceptions.dart';
+
+const String fName = 'lib/core/service/kinfolk/global_variables.dart';
+
+class GlobalVariables {
+  static String _urlEndPoint;
+  static String _identifier;
+  static String _secret;
+  static String token;
+  static String _lang;
+
+  static const String connectionTimeCode = 'CONNECTION_TIME_OUT';
+  static const String accessErrorCode = 'ACCESS_ERROR';
+
+  static String get identifier {
+    if (_identifier == null || _identifier.isEmpty) throw NullOrEmptyArgument('GlobalVariables.identifier');
+    return _identifier;
+  }
+
+  static String get secret {
+    if (_secret == null || _secret.isEmpty) throw NullOrEmptyArgument('GlobalVariables.secret');
+    return _secret;
+  }
+
+  static String get urlEndPoint {
+    if (_urlEndPoint == null || _urlEndPoint.isEmpty) throw NullOrEmptyArgument('GlobalVariables.urlEndPoint');
+    return _urlEndPoint;
+  }
+
+  static String get lang {
+    if (_lang == null || _lang.isEmpty) return 'ru';
+    return _lang;
+  }
+
+  static set urlEndPoint(String value) => _urlEndPoint = value;
+
+  static set identifier(String value) => _identifier = value;
+
+  static set secret(String value) => _secret = value;
+
+  static set lang(String value) => _lang = value;
+}

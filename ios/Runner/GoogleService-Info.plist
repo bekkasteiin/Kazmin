@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>729391916734-39r9bp7rcovqgpv0li27g8i8qri6qjeh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.729391916734-39r9bp7rcovqgpv0li27g8i8qri6qjeh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB5ZxuhAhMYJhvTdsk3aT5C5dxP91i8VGU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>729391916734</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kz.uco.kazmineralmobile</string>
+	<key>PROJECT_ID</key>
+	<string>kazmin-c6856</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kazmin-c6856.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:729391916734:ios:27f68ef3261c447ce320ef</string>
+	<key>DATABASE_URL</key>
+	<string>https://kazmin-c6856-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
